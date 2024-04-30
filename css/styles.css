@@ -13,7 +13,7 @@
   --dairy: #fcfcfc;
 }
 
-/* reset styles */
+/* ---- reset styles ---- */
 h1,
 h2,
 h3,
@@ -43,7 +43,7 @@ a {
   color: inherit;
   text-decoration: none;
 }
-/* page */
+/* ---- page ---- */
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--slate);
@@ -62,7 +62,7 @@ body {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-/* (title & text & logo) */
+/* ---- title & text & logo ---- */
 .title {
   font-weight: 700;
   font-size: 36px;
@@ -119,14 +119,14 @@ body {
   display: flex;
   align-items: center;
 }
-/*  -- Logo --  */
+/*  ---- Logo ----  */
 .logo-header {
   margin-right: 76px;
 }
 .logo-part {
   color: var(--navy-blue);
 }
-/* -- Nav List -- */
+/* ---- Nav List ---- */
 .nav-list {
   display: flex;
   gap: 40px;
@@ -202,7 +202,7 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-/* Hero-Button */
+/* ---- Hero-Button ---- */
 .hero-button {
   font-weight: 500;
   font-size: 16px;
@@ -276,7 +276,7 @@ body {
   background: var(--white);
   text-align: center;
   width: 264px;
-  height: 380px;
+  height: 428px;
   padding: 0px 0px 32px 0px;
 
   border-radius: 0 0 4px 4px;
@@ -289,6 +289,24 @@ body {
 }
 .team-item-title {
   margin-bottom: 8px;
+}
+/* ---- Team Social List ---- */
+
+/* 
+.team--social-item {
+}
+.team--social-link {
+}
+
+.team--social-icon {
+} */
+.team--social-list {
+}
+.team--social-link-wrapper {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--iris);
 }
 /* ==== PORTFOLIO SECTION ==== */
 .portfolio-section-title {
