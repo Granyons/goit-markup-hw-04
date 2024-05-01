@@ -13,7 +13,7 @@
   --dairy: #fcfcfc;
 }
 
-/* ---- reset styles ---- */
+/* ---- reset styles --------------------- */
 h1,
 h2,
 h3,
@@ -43,7 +43,7 @@ a {
   color: inherit;
   text-decoration: none;
 }
-/* ---- page ---- */
+/* ---- page ------------------------------ */
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--slate);
@@ -62,7 +62,7 @@ body {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-/* ---- title & text & logo ---- */
+/* ---- title & text & logo -------------- */
 .title {
   font-weight: 700;
   font-size: 36px;
@@ -107,7 +107,7 @@ body {
   color: var(--iris);
 }
 
-/* ============== PAGE-HEADER ============= */
+/* ============ PAGE-HEADER ========================== */
 .header {
   border-bottom: 1px solid var(--cornflower);
   box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08),
@@ -122,14 +122,14 @@ body {
   display: flex;
   align-items: center;
 }
-/*  ---- Logo ----  */
+/*  ----- Logo -------------------------------  */
 .logo-header {
   margin-right: 76px;
 }
 .logo-part {
   color: var(--navy-blue);
 }
-/* ---- Nav List ---- */
+/* ----- Nav List ----------------------------- */
 .nav-list {
   display: flex;
   gap: 40px;
@@ -165,7 +165,7 @@ body {
   height: 4px;
 }
 
-/* -- Address --*/
+/* ----- Address ---------------------------*/
 .address {
   font-style: normal;
   display: flex;
@@ -183,8 +183,8 @@ body {
 .address-link:focus {
   color: var(--ocean);
 }
-/* ============== PAGE-MAIN CONTENT ============ */
-/* ==== HERO SECTION ==== */
+/* ************** PAGE-MAIN CONTENT ************** */
+/* =========== HERO SECTION ================== */
 .hero-section {
   background-color: var(--navy-blue);
   max-width: 1440px;
@@ -213,7 +213,7 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-/* ---- Hero-Button ---- */
+/* ------- Hero-Button --------------------- */
 .hero-button {
   font-weight: 500;
   font-size: 16px;
@@ -239,7 +239,7 @@ body {
   background-color: var(--ocean);
 }
 
-/* ==== TEH STACK SECTION ==== */
+/* ====== TEH STACK SECTION ======================== */
 
 .teh-stack-list {
   display: flex;
@@ -269,7 +269,7 @@ body {
   margin-bottom: 8px;
 }
 
-/* ==== TEAM SECTION ==== */
+/* ======== TEAM SECTION =================== */
 
 .team-section {
   background-color: var(--cloud);
@@ -303,7 +303,7 @@ body {
 .team-item-box .text {
   margin-bottom: 8px;
 }
-/* ---- Team Social List ---- */
+/* ----- Team Social List --------------------- */
 
 .team-social-list {
   display: flex;
@@ -331,7 +331,7 @@ body {
   height: 40px;
 }
 
-/* ==== PORTFOLIO SECTION ==== */
+/* =========== PORTFOLIO SECTION ================== */
 .portfolio-section-title {
   margin-bottom: 72px;
 }
@@ -356,7 +356,7 @@ body {
 .portfolio-under-title {
   margin-bottom: 8px;
 }
-/* ---- portfolio-overley ---- */
+/* ------ portfolio-overley --------------------- */
 .portfolio-overley-wrapper {
   position: relative;
   overflow: hidden;
@@ -388,7 +388,7 @@ body {
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
-/* ============= PAGE FOOTER ============= */
+/* ============= PAGE FOOTER ====================== */
 .footer {
   background-color: var(--navy-blue);
   padding-top: 100px;
@@ -414,7 +414,7 @@ body {
 
   width: 264px;
 }
-/* ----- footer Social List footer ---- */
+/* ------ footer Social List footer ------------- */
 .footer-container {
   align-items: baseline;
 }
