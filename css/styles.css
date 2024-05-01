@@ -295,11 +295,15 @@ body {
 }
 /* ---- Team Social List ---- */
 
-.team--social-list {
+.team-social-list {
   display: flex;
   gap: 24px;
 }
-.team--social-link-wrapper {
+.team-social-link:hover .team-social-icon-wrapper,
+.team-social-link:focus .team-social-icon-wrapper {
+  background-color: var(--ocean);
+}
+.team-social-icon-wrapper {
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -308,6 +312,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 /* ==== PORTFOLIO SECTION ==== */
 .portfolio-section-title {
   margin-bottom: 72px;
