@@ -368,9 +368,7 @@ body {
   line-height: 150%;
   color: var(--cloud);
 
-  padding-left: 32px;
-  padding-right: 32px;
-  padding-top: 40px;
+  padding: 40px 32px;
 
   position: absolute;
   width: 100%;
